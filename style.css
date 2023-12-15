@@ -1,0 +1,16 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        position: relative;
+      }
+
+      .container video {
+        position: absolute;
+      }
+
+      .container video:nth-child(2) {
+        mix-blend-mode: screen;
+      }
